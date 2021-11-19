@@ -8,6 +8,7 @@ import { Search } from '../store/action/auth'
 import { connect } from 'react-redux'
 import './Login.css';
 import image from './image/img.png';
+import './Dropdown.css'
 
 const style = {
   //height: 100,
@@ -83,12 +84,12 @@ class Feedback extends Component {
                 ref="selectedTeacher"
               >
                 <option> Faculty  </option>
-                <option value="Teacher1">Teacher 1</option>
-                <option value="Teacher2">Teacher2</option>
-                <option value="Teacher3">Teacher3</option>
-                <option value="Teacher4">Teacher4</option>
-                <option value="Teacher5">Teacher5</option>
-                <option value="Teacher6">Teacher6</option>
+                <option className="summary" value="Teacher1">Teacher 1</option>
+                <option className="summary" value="Teacher2">Teacher2</option>
+                <option className="summary" value="Teacher3">Teacher3</option>
+                <option className="summary" value="Teacher4">Teacher4</option>
+                <option className="summary" value="Teacher5">Teacher5</option>
+                <option className="summary" value="Teacher6">Teacher6</option>
               </select><br /><br />
 
               <button onClick={this.onSearch} type="submit" > Find </button>
