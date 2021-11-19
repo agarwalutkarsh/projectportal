@@ -49,7 +49,7 @@ export default class FeedbackParent extends React.Component {
                 {this.props.children}
                 <div className="body">
                     <img className="mImage" src={image} />
-                    <h1 className="title">Welcome to Management Mode Good.</h1>
+                    <h1 className="title">Welcome to Management Mode.</h1>
                 </div>
             </div>
         )
