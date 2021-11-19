@@ -93,7 +93,7 @@ class Feedback extends Component {
                 <option className="summary" value="Teacher6">Teacher6</option>
               </select><br /><br />
 
-              <button onClick={this.onSearch} type="submit" > Find </button>
+              <button className="lgnBtn" onClick={this.onSearch} type="submit" > Find </button>
             </form><br /><br />
           </ center>
           {console.log("this.state.arr", this.state.arr)}
