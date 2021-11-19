@@ -101,11 +101,12 @@ class Feedback extends Component {
             return (
               <div>
 
-                <Paper style={style} zDepth={5} >
-                  {'>'}Name: {c.informerName} <br />
+                <Paper className="paper" style={style} zDepth={5} >
+                  <div className="view">
+                    {'>'}Name: {c.informerName} <br />
                   {'>'}Teacher: {c.teacher}<br />
                   {'>'}Feedback: {c.feedback}<br />
-                  {'>'}Roll Number: {c.roll}<br />
+                  {'>'}Roll Number: {c.roll}<br /> </div>
                   {/*<mui.RaisedButton type="submit" label="Request Blood" secondary={true} />*/}
                 </Paper>
               </div>
