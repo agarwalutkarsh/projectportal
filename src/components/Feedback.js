@@ -76,7 +76,7 @@ class Feedback extends Component {
 
 
             <form className="form" onSubmit={this.onSearch}>
-              <h1>Feedback List</h1>
+              <h1 className="title">Feedback List</h1>
               <select name="teacher"
                 // value={this.props.signUpState.city}
                 required
