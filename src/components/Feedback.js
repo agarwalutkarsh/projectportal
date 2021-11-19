@@ -82,6 +82,7 @@ class Feedback extends Component {
                 required
                 //  onChange={this.props._inputHandler}
                 ref="selectedTeacher"
+                className="details"
               >
                 <option> Faculty  </option>
                 <option className="summary" value="Teacher1">Teacher 1</option>
