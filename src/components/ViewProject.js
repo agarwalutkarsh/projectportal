@@ -8,7 +8,7 @@ import { Search } from '../store/action/auth'
 import { connect } from 'react-redux'
 import './Login.css';
 import image from './image/img.png';
-
+import './Dropdown.css'
 
 
 
@@ -84,14 +84,15 @@ class ProjectList extends Component {
               required
               //  onChange={this.props._inputHandler}
               ref="selectedTeacher"
+              className="details"
             >
               <option > Faculty  </option>
-              <option value="Teacher1">Teacher 1</option>
-              <option value="Teacher2">Teacher2</option>
-              <option value="Teacher3">Teacher3</option>
-              <option value="Teacher4">Teacher4</option>
-              <option value="Teacher5">Teacher5</option>
-              <option value="Teacher6">Teacher6</option>
+              <option className="summary" value="Teacher1">Teacher 1</option>
+              <option className="summary" value="Teacher2">Teacher2</option>
+              <option className="summary" value="Teacher3">Teacher3</option>
+              <option className="summary" value="Teacher4">Teacher4</option>
+              <option className="summary" value="Teacher5">Teacher5</option>
+              <option className="summary" value="Teacher6">Teacher6</option>
 
             </select><br /><br />
 
