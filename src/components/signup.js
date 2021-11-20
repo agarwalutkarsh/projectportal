@@ -55,7 +55,7 @@ class Register extends Component {
         return (
             <div ><center>
                 <SignupComponent signUpState={this.state} _inputHandler={this.inputHandler} _submit={this.submit} />
-                Already have an account? <br /><Link to="/login"><button className="lgnBtn" label="Login" primary={false} >Login</button></Link>
+//                 Already have an account? <br /><Link to="/login"><button className="lgnBtn" label="Login" primary={false} >Login</button></Link>
             </center>
             </div>
         );
